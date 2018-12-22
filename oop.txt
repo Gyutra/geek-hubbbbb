@@ -1,0 +1,37 @@
+рекурс:
+
+def counter(number)
+p number
+number -=1
+number.zero? && return
+counter(number)
+end
+
+
+counter (10)
+
+
+#if true
+2
+else
+0
+end
+#true ? 2:0
+
+
+require /.test/
+
+
+#инкапсуляция - обьединение данных и выполнение над ними операции
+метод и функция - функция - независима, метод внутри класса.
+
+
+
+сменные - локальные(@)only in object, глобальные($)vezde, сменная класса(@@)for class and objects
+local - test
+class variable - @@test
+
+
+
+#getter & setter - 	
+
